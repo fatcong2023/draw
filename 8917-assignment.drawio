@@ -4,11 +4,53 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="meFs1PEszIlnw2ds5aaA-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="meFs1PEszIlnw2ds5aaA-1" target="meFs1PEszIlnw2ds5aaA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="meFs1PEszIlnw2ds5aaA-1" value="Client Devices" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="80" width="330" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="meFs1PEszIlnw2ds5aaA-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="meFs1PEszIlnw2ds5aaA-2" target="meFs1PEszIlnw2ds5aaA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="meFs1PEszIlnw2ds5aaA-2" value="Azure IoT / Message Bus / Event Hub" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="190" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="meFs1PEszIlnw2ds5aaA-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="meFs1PEszIlnw2ds5aaA-3" target="meFs1PEszIlnw2ds5aaA-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="meFs1PEszIlnw2ds5aaA-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="meFs1PEszIlnw2ds5aaA-3" target="meFs1PEszIlnw2ds5aaA-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="meFs1PEszIlnw2ds5aaA-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="310" width="630" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="meFs1PEszIlnw2ds5aaA-4" value="Function A&lt;div&gt;(Ingest Message)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="meFs1PEszIlnw2ds5aaA-5" value="Azure Functions (serverless layer)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="320" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="meFs1PEszIlnw2ds5aaA-6" value="Function B&lt;div&gt;(Geo Fencer filtering)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="meFs1PEszIlnw2ds5aaA-7" value="Function C&lt;br&gt;(Alert process)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="meFs1PEszIlnw2ds5aaA-8" value="Function D&amp;nbsp;&lt;div&gt;(Notify via SignalR)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="meFs1PEszIlnw2ds5aaA-9" value="Function E&lt;div&gt;(Timer-based refresh)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="meFs1PEszIlnw2ds5aaA-10" value="Function F&lt;div&gt;(Telemetry Loggin)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="meFs1PEszIlnw2ds5aaA-13" value="Azure SignalR Service &amp;amp; Web App" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="730" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="meFs1PEszIlnw2ds5aaA-14" value="DB and Cache (Cosmos/Redis)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="730" width="280" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
